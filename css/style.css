@@ -1,0 +1,288 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: #ffffff;
+}
+header {
+	height: 100px;
+}
+.header1 {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+}
+.logo {
+	float: left;
+	width: 30%;
+	margin-top: 32px;
+	text-align: center;
+}
+.menu {
+	list-style: none;
+	float: right;
+	width: 50%;
+	margin-top: 37px;
+	text-align: center;
+}
+
+.menu a {
+	text-decoration: none;
+	font-family: "Gotham-Medium";
+	font-size: 12px;
+	color: #a7a7a7;
+	padding: 48px;
+}
+.menu a:hover {
+	color: #414141;
+}
+.menu li {
+	display: inline;
+}
+.block-letus {
+	background-image: url("../img/bg-head.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+.block-letus .title {
+	font-size: 40px;
+	font-family: "Gotham-Bold";
+	text-align: center;
+	color: #303030;
+	padding-top: 165px;
+}
+.block-letus .title2 {
+	font-size: 16px;
+	font-family: "Georgia";
+	font-style: italic;
+	text-align: center;
+	color: #5a5a5a;
+	margin-top: 30px;
+}
+.block-letus .btn {
+	display: block;
+	margin: 68px auto 0;
+}
+#m1, #m2, #m3 {
+	font-size: 30px;
+	font-family: "Gotham-Bold";
+	text-align: center;
+	color: #303030;
+	margin-top: 50px;
+}
+.rectangle {
+	display: block;
+	margin: 10px auto 0; 
+}
+.text {
+	font-size: 16px;
+	font-family: "ProximaNova-Regular";
+	text-align: center;
+	color: #5a5a5a;
+	margin-top: 30px;
+}
+.block-work {
+	text-align: center;
+}
+.block-work .img1,
+.block-work .img2,
+.block-work .img3 {
+	display: inline-block;
+	height: 170px;
+	width: 260px;
+	padding: 45px 28px 15px 28px;
+}
+.block-work img {
+	opacity: 0.8;
+}
+.block-work img:hover {
+	opacity: 1;
+}
+.block-team {
+	background-image: url("../img/bg-team.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 540px;
+	padding: 50px;
+}
+.block-team .rectangle {
+	width: 185px;
+	height: 3px;
+}
+.teammates {
+	text-align: center;
+}
+.teammate {
+	background-color: #ffffff;
+	width: 210px;
+	height: 210px;
+	display: inline-block;
+	padding-top: 10px;
+	margin: 70px 10px 10px 10px;
+	box-shadow: 0 2px 5px 0 #cccccc;
+}
+.name {
+	font-size: 16px;
+	font-family: "Gotham-Bold";
+	text-align: center;
+	color: #303030;
+	margin-top: 10px;
+}
+.who {
+	font-size: 12px;
+	font-family: "Georgia";
+	font-style: italic;
+	text-align: center;
+	color: #303030;
+	margin-top: 10px;
+}
+.sm-btn {
+	display: inline-block;
+	margin: 10px auto;
+	padding-top: 10px;
+}
+.sm-btn a {
+	padding-right: 15px;
+}
+#m3 {
+	margin: 0;
+}
+.block-contact .rectangle {
+	margin-top: 18px;
+	width: 180px;
+	height: 3px;
+}
+.contact {
+	height: 475px;
+	max-width: 1200px;
+	width: 100%;
+	margin: auto;
+}
+.left {
+	float: left;
+	width: 30%;
+}
+
+.left .text-contact-left {
+	margin: 42px 0 20px 150px;
+}
+
+.left .map {
+	margin-left: 150px;
+	border: 5px solid #ffffff;
+	box-shadow: 0px 2px 5px 0px #cccccc;
+}
+
+.right {
+	float: right;
+	width: 57.5%;
+}
+
+.right .text-contact-right{
+	margin: 42px 50px 20px 0;
+}
+
+.text-contact {
+	font-size: 16px;
+	font-family: "ProximaNova-Regular";
+	color: #5a5a5a;
+}
+
+.form2 {
+	max-width: 690px;
+	width: 100%;
+}
+
+.form2 .input {
+	width: 45%;
+	float: left;
+}
+
+.form2 .submit1 {
+	width: 55%;
+	float: right;
+}
+
+.form2 .btn-str1{
+	width: 5%;
+	margin: 25px 100px 25px 400px;
+}
+
+textarea {
+	background-color: #f2f2f2;
+	width: 510px;
+	height: 200px;
+	resize: none;
+	font-size: 16px;
+	font-family: "Georgia";
+	font-style: italic;
+	padding: 25px 0 0 30px;
+	border: 1px solid #d9d9d9;
+}
+.email {
+	background-color: #f2f2f2;
+	width: 290px;
+	height: 65px;
+	font-size: 16px;
+	font-family: "Georgia";
+	font-style: italic;
+	padding-left: 30px;
+	margin-top: 20px;
+	border: 1px solid #d9d9d9;
+}
+.submit {
+	background-color: #6995a9;
+	width: 200px;
+	height: 65px;
+	font-size: 16px;
+	font-family: "Gotham-Bold";
+	text-align: center;
+	color: #ffffff;
+	box-shadow: 0 2px 5px 0 #ffffff;
+	padding-left: 25px;
+	margin: 20px 0 0 30px; 
+}
+
+footer {
+	max-width: 1200px;
+	margin: auto;
+	height: 80px;
+	background-color: #4f4f4f;
+}
+.text-footer {
+	font-size: 16px;
+	font-family: "ProximaNova-Regular";
+	color: #7b7b7b;
+	width: 100%;
+}
+.text-footer1 {
+	float: left;
+	padding-top: 35px;
+	padding-left: 150px;
+}
+.text-footer2 {
+	float: right;
+	padding-top: 35px;
+	padding-right: 150px;
+}
+
+@font-face {
+font-family: "Gotham-Bold";
+src: url("../fonts/Gotham-Bold.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+@font-face {
+font-family: "Gotham-Medium";
+src: url("../fonts/Gotham-Medium.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+@font-face {
+font-family: "ProximaNova-Regular";
+src: url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
